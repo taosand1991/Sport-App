@@ -10,11 +10,12 @@ export default class Navbar extends Component {
         return (
             <React.Fragment>
 <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <div className='navbar-nav'>
+  <div className='nav navbar-nav'>
   <NavLink exact={true} activeClassName='active' className="nav-link nav-item" to="/">Home</NavLink>
 </div>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button className="navbar-toggler collapsed " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
+    <div className='close-icon py-1'>X</div>
   </button>
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">

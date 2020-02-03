@@ -31,10 +31,10 @@ const PlayerInput = ({getData, handleChange,position, picture, country,
        }
     return (
         <React.Fragment>
-        <div className='top center'>
+        <div className='top h-100'>
             <h3 className='text-center text-white'>Lets get through with this</h3>
             <div className="row">
-                <div className="col-sm-6 offset-sm-3">
+                <div className="col-12 col-sm-6 offset-sm-3">
             <form onSubmit={(getData)}  className='form-group'>
             <input onChange={handleChange} className='form-control' type="text" placeholder='your favorite player' value={playMaker} required/>
             <button className='btn btn-outline-success btn-lg shift' >search</button>

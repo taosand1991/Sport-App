@@ -18,6 +18,7 @@ body{
 background-size: cover;
 background-repeat: no-repeat;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .card .card-header{
@@ -51,6 +52,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 *{
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+
   
 }
 
@@ -102,4 +104,11 @@ nav .navbar{
   border:5px dotted;
   border-radius: 10px;
   
+}
+
+.navbar-toggler.collapsed .close-icon {
+  display: none;
+}
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon{
+  display: inline;
 }

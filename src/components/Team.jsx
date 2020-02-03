@@ -98,18 +98,18 @@ export default class Team extends Component {
             getData, website} = this.state
         return (
             <React.Fragment>
-                <section>
+                <section className='h-100'>
             <div className='row  center'>
-                <div className="col-md-6 offset-md-3">
+                <div className="col-6 col-sm-6 col-md-8 col-lg-6 offset-lg-3 offset-sm-3 offset-3">
                 <h3 className=' text-white fort text-center'>Search for your Favorite Teams Here</h3>
-                <form onSubmit={this.getTeam} className='form-inline'>
-                <input onChange={this.handleChange} className='form-control' type="text" placeholder='Your team' value={this.state.team}
+                <form onSubmit={this.getTeam} className='form-inline form-group'>
+                <input onChange={this.handleChange} className='form-control ' type="text" placeholder='Your team' value={this.state.team}
                 required/>
-                <input className='btn btn-primary ml-2' type="submit" value='submit'/>
+                <input className='btn btn-primary ml-sm-2 m-2 ' type="submit" value='submit'/>
                 </form>
                 </div>
             </div><br/>
-            </section>
+            
             <TeamDetails
             description={description}
             league={league}
@@ -129,6 +129,7 @@ export default class Team extends Component {
             
             
             />
+            </section>
             </React.Fragment>
         )
     }

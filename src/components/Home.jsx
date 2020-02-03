@@ -6,9 +6,9 @@ import '../App.css'
 const Home = () => {
     return (
         <React.Fragment>       
-<section>
+<section className=''>
     <div className="row center ">
-        <div className="col-sm-6 offset-sm-3 border">
+        <div className="col-12 col-sm-6 col-xl-6 offset-sm-3  offset-xl-3  border">
         <p className='text-white bolder '>
         <span id='bold'>Legacy Sport App</span>  let you search for your favorite player and team all around the
         world, providing best results pertaining to the team and player. The web app is solely 

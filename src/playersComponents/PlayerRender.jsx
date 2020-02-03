@@ -37,9 +37,9 @@ data}) => {
         function loadData(){
             if(picture && pic2 && description && position && dateOb && country
                 && birthCountry){
-                return <div className="row ml-9 ">
-                    <div className="col-sm-4">
-                        <div className="card ml-3 " style={{width:'30rem'}}>
+                return <div className="row ">
+                    <div className="col-12 col-sm-6 col-xl-4">
+                        <div className="card m-2" >
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -66,8 +66,8 @@ data}) => {
 </div>
                         </div>
                     </div>
-                    <div className="col-sm-4 ml-3">
-                        <div className="card ">
+                    <div className="col-12 col-sm-6 col-xl-4 ">
+                        <div className="card m-2">
                             <div className="card-header">
                             <h5 className='text-center'>{playName}</h5>
                             </div>
@@ -76,8 +76,8 @@ data}) => {
                         </div>
                         </div>
                     </div>
-                    <div className="col-sm-3">
-                        <div className="card">
+                    <div className="col-12 col-sm-6 col-xl-4">
+                        <div className="card m-2">
                             <div className="card-header">
                                 <h5 className='text-center'>Player Details</h5>
                             </div>

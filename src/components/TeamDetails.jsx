@@ -39,8 +39,8 @@ class TeamDetails extends Component {
         {description && country && stadium && badge &&
         <section>
             <div className='row'>
-                <div className="col-md-4">
-                    <div className="card ml-5">
+                <div className="col-12 col-sm-6 col-md-6 col-xl-4">
+                    <div className="card m-2">
                         <div className='card-header'>
                         <h4 className='text-center'>Team History</h4>
                         </div>
@@ -52,8 +52,8 @@ class TeamDetails extends Component {
                     </div>
                 </div>
                 
-                <div className="col-md-3">
-                    <div  className="card">
+                <div className=" col-12 col-sm-6 col-md-6 col-xl-4">
+                    <div  className="card m-2">
                         <div className='card-header'>
                         <h4 className='text-center'>Team Statistics</h4>
                         </div>
@@ -66,8 +66,8 @@ class TeamDetails extends Component {
                     </div>
                     </div>
                 </div>
-                <div className="col-md-4" id='scroll'>
-                    <div className="card ">
+                <div className="col-12 col-sm-6 col-md-6 col-xl-4" id='scroll'>
+                    <div className="card m-2">
                     <div className='card-header'>
                         <h4 className='text-center'>Stadium History</h4>
                         </div>
